@@ -1,4 +1,3 @@
-
 let square;
 
 function setup(){
