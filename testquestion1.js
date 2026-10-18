@@ -1,6 +1,5 @@
 let bird;
 let background, birdImg;
-let newsprite
 
 function preload(){ 
     loadImage("assets/background.png")
