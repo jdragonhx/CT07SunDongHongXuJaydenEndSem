@@ -8,6 +8,7 @@ function preload(){
 
 
 function setup(){
+    bird("assets/background.png")
     new Canvas(400, 600);
     new Sprite("")
     // write code to create sprite and load bird image on sprite
