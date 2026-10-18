@@ -3,12 +3,12 @@ let background, birdImg;
 
 function preload(){ 
     loadImage("assets/background.png")
+    loadImage
 }
 
 
 function setup(){
     new Canvas(400, 600);
-    createImageBitmap
     // write code to create sprite and load bird image on sprite
 }
 
