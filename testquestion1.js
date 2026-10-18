@@ -2,7 +2,7 @@ let bird;
 let background, birdImg;
 
 function preload(){ 
-    loadImage("assets/background.png")/workspaces/CT07SunDongHongXuJaydenEndSem/assets/background.png
+    loadImage("assets/background.png")
 }
 
 
