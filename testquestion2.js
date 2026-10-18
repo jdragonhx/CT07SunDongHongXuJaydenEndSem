@@ -11,7 +11,9 @@ function setup(){
 
 function draw(){
     background("grey");
-    if     mouse.presses() 
+    if (mouse.presses()) {
+        
+    }
 
 
 
