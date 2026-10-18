@@ -4,7 +4,7 @@ function setup(){
     new Canvas(400, 600);
    
     // code to set the gravity of the world
-    
+    world.gravity.y
 
 
     // code to create a new square sprite
