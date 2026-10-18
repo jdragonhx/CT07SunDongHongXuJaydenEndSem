@@ -2,14 +2,14 @@ let bird;
 let background, birdImg;
 
 function preload(){ 
-    loadImage("bird/assets/background.png")   
+    loadImage("/assets/background.png")   
     loadImage("assets/bird.png")
 }
 
 
 function setup(){
     new Canvas(400, 600);
-    new Sprite(bird/assets/background.png)
+    new Sprite()
     // write code to create sprite and load bird image on sprite
 }
 
