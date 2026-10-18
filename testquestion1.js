@@ -9,7 +9,6 @@ function preload(){
 
 function setup(){
     new Canvas(400, 600)
-    new Sprite(background)
     bird = new Sprite()
     bird.collider = "static"
     // write code to create sprite and load bird image on sprite
@@ -18,7 +17,7 @@ function setup(){
 
 function draw(){
     
-    // image(background, 0, 0, width, height);
+    image(background, 0, 0, width, height);
 }
 
 // Creating an array (also known as a list in python) of strings
