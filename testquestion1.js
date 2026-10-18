@@ -11,7 +11,8 @@ function setup(){
     new Canvas(400, 600)
     new Sprite(background)
     bird = new Sprite()
-        bird.collider = "static"
+    bird.collider = "static"
+    
     // write code to create sprite and load bird image on sprite
 }
 
