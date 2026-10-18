@@ -8,7 +8,7 @@ function preload(){
 
 
 function setup(){
-    se
+    
     new Canvas(400, 600);
     new Sprite(background)
     new Sprite()
