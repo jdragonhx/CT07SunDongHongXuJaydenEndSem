@@ -3,14 +3,14 @@ let background, birdImg;
 
 function preload(){ 
     background = loadImage("assets/background.png")
-    loadImage("assets/bird.png")
+    bird = loadImage("assets/bird.png")
 }
 
 
 function setup(){
     new Canvas(400, 600);
     new Sprite(background)
-    new Sprite()
+    new Sprite(bird)
     // write code to create sprite and load bird image on sprite
 }
 
