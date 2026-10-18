@@ -12,7 +12,7 @@ function setup(){
 function draw(){
     background("grey");
     if (mouse.presses()) {
-        
+        square.vel.y = 2
     }
 
 
