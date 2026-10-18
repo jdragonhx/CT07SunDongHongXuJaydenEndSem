@@ -9,7 +9,7 @@ function preload(){
 
 function setup(){
     new Canvas(400, 600);
-    newsprite(bird("assets/background.png"))
+    newsprite()
     // write code to create sprite and load bird image on sprite
 }
 
