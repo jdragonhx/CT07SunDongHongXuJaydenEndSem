@@ -8,7 +8,7 @@ function preload(){
 
 
 function setup(){
-    
+    bird.collider
     new Canvas(400, 600);
     new Sprite(background)
     new Sprite()
