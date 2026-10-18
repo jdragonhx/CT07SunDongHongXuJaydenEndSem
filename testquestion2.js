@@ -8,6 +8,7 @@ function setup(){
 
 
     // code to create a new square sprite
+    new Sprite
 }
 
 function draw(){
