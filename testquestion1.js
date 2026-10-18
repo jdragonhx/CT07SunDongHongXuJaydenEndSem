@@ -3,13 +3,13 @@ let background, birdImg;
 
 function preload(){ 
     background = loadImage("assets/background.png")
-    bird = loadImage("assets/bird.png")
+    birdImg = loadImage("assets/bird.png")
 }
 
 
 function setup(){
     bird.collider = "static"
-    new Canvas(400, 600);
+    new Canvas(400, 600)
     new Sprite(background)
     bird = new Sprite()
     // write code to create sprite and load bird image on sprite
